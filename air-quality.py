@@ -37,7 +37,7 @@ class AirQualityApp:
             if data:
                 processed_data = self.process_data(data)
                 self.result_label.config(text=f"PM2.5: {processed_data['PM2.5']}, PM10: {processed_data['PM10']}, NO2: {processed_data['NO2']}, AQI: {processed_data['AQI']}")
-                self.processed_data = processed_data  # Zapisz dane do późniejszego użycia
+                self.processed_data = processed_data
             else:
                 messagebox.showerror("Error", "Failed to retrieve data")
         except ValueError:
