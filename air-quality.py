@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 import matplotlib.pyplot as plt
 
-API_KEY = 'bff9acaf8459b92ca4de4e419370cb40'
+API_KEY = 'INSERT YOUR API KEY HERE'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/air_pollution'
 
 class AirQualityApp:
